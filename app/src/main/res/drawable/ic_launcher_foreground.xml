@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ambient Document Drop Shadow -->
+    <path
+        android:fillColor="#38000000"
+        android:pathData="M 33,28 L 65,28 L 79,42 L 79,83 C 79,85.2 77.2,87 75,87 L 33,87 C 30.8,87 29,85.2 29,83 L 29,32 C 29,29.8 30.8,28 33,28 Z" />
+
+    <!-- Document White Sheet with Folded Corner -->
+    <!-- Document Body -->
+    <path
+        android:pathData="M 32,24 L 64,24 L 78,38 L 78,82 C 78,84.2 76.2,86 74,86 L 32,86 C 29.8,86 28,84.2 28,82 L 28,28 C 28,25.8 29.8,24 32,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="24"
+                android:endX="78"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#EEF2F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Fold Crease Shadow -->
+    <path
+        android:fillColor="#1F000000"
+        android:pathData="M 64,24 L 78,38 L 64,38 Z" />
+
+    <!-- Folded Dog-Ear Flap -->
+    <path
+        android:fillColor="#DCE4EC"
+        android:pathData="M 64,24 L 78,38 L 66,38 C 64.9,38 64,37.1 64,36 Z" />
+
+    <!-- Top Document Preview Lines -->
+    <path
+        android:fillColor="#BAC8D6"
+        android:pathData="M 34,32 C 34,31.4 34.4,31 35,31 L 58,31 C 58.6,31 59,31.4 59,32 C 59,32.6 58.6,33 58,33 L 35,33 C 34.4,33 34,32.6 34,32 Z" />
+    <path
+        android:fillColor="#BAC8D6"
+        android:pathData="M 34,37 C 34,36.4 34.4,36 35,36 L 53,36 C 53.6,36 54,36.4 54,37 C 54,37.6 53.6,38 53,38 L 35,38 C 34.4,38 34,37.6 34,37 Z" />
+
+    <!-- Bold Crimson PDF Badge Ribbon across Document -->
+    <path
+        android:pathData="M 22,46 L 86,46 C 88.2,46 90,47.8 90,50 L 90,63 C 90,65.2 88.2,67 86,67 L 22,67 C 19.8,67 18,65.2 18,63 L 18,50 C 18,47.8 19.8,46 22,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="18"
+                android:startY="46"
+                android:endX="90"
+                android:endY="67"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF382E" />
+                <item android:offset="0.5" android:color="#E52D27" />
+                <item android:offset="1.0" android:color="#B31217" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Badge Bottom Rim Depth -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M 22,65.5 L 86,65.5 C 88.2,65.5 90,64.8 90,63 L 90,64 C 90,66.2 88.2,67 86,67 L 22,67 C 19.8,67 18,66.2 18,64 L 18,63 C 18,64.8 19.8,65.5 22,65.5 Z" />
+
+    <!-- "P" Letter in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M 32.5,50.5 L 39.5,50.5 C 42,50.5 44,51.8 44,53.8 C 44,55.8 42,57 39.5,57 L 35.8,57 L 35.8,62.5 L 32.5,62.5 Z M 35.8,52.8 L 39.2,52.8 C 40.2,52.8 41,53.2 41,53.8 C 41,54.4 40.2,54.8 39.2,54.8 L 35.8,54.8 Z" />
+
+    <!-- "D" Letter in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M 48.5,50.5 L 55.5,50.5 C 59.2,50.5 61.8,52.8 61.8,56.5 C 61.8,60.2 59.2,62.5 55.5,62.5 L 48.5,62.5 Z M 51.8,52.9 L 55.2,52.9 C 57.2,52.9 58.4,54.3 58.4,56.5 C 58.4,58.7 57.2,60.1 55.2,60.1 L 51.8,60.1 Z" />
+
+    <!-- "F" Letter in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 66.5,50.5 L 75.5,50.5 L 75.5,53 L 69.8,53 L 69.8,55.2 L 74.5,55.2 L 74.5,57.4 L 69.8,57.4 L 69.8,62.5 L 66.5,62.5 Z" />
+
+    <!-- Bottom Document Preview Lines -->
+    <path
+        android:fillColor="#BAC8D6"
+        android:pathData="M 34,73 C 34,72.4 34.4,72 35,72 L 71,72 C 71.6,72 72,72.4 72,73 C 72,73.6 71.6,74 71,74 L 35,74 C 34.4,74 34,73.6 34,73 Z" />
+    <path
+        android:fillColor="#BAC8D6"
+        android:pathData="M 34,78 C 34,77.4 34.4,77 35,77 L 57,77 C 57.6,77 58,77.4 58,78 C 58,78.6 57.6,79 57,79 L 35,79 C 34.4,79 34,78.6 34,78 Z" />
+
+</vector>

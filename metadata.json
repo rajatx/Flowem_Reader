@@ -1,0 +1,8 @@
+{
+  "name": "Flowem Reader",
+  "description": "A minimalist, distraction-free PDF reader designed for long reading comfort with customizable reading modes, text-to-speech, and local annotations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
